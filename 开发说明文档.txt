@@ -1,11 +1,19 @@
-1.¼ÓÔØ²å¼ş×¢²áÔÚmain.jsÎÄ¼şÀïÃæ£¬ÒÔ¼°¹«¹²·½·¨ÔÚmain.jsÎÄ¼şÀï£¬ËùĞ´µÄ²å¼ş±ØĞë×¢²á£¬·ñÔò¼ÓÔØ²»³öÀ´
+1.åŠ è½½æ’ä»¶æ³¨å†Œåœ¨main.jsæ–‡ä»¶é‡Œé¢ï¼Œä»¥åŠå…¬å…±æ–¹æ³•åœ¨main.jsæ–‡ä»¶é‡Œï¼Œæ‰€å†™çš„æ’ä»¶å¿…é¡»æ³¨å†Œï¼Œå¦åˆ™åŠ è½½ä¸å‡ºæ¥
+//1., the load plug-in is registered in the main.js file, and the public method in the main.js file, the written plug-in must be registered, otherwise it will not load
 
-2.²å¼ş·ÅÔÚtoolsÀïÃæ£¬ÒÔ±ã¿ª·¢
+2.æ’ä»¶æ”¾åœ¨toolsé‡Œé¢ï¼Œä»¥ä¾¿å¼€å‘
+//2. plugins inside the tools for development easy
 
-3.cssÎÄ¼ş¼ĞÀï¶¨ÒåÒ³ÃæÒÔ¼°²å¼şµÄÊôĞÔ
+3.cssæ–‡ä»¶å¤¹é‡Œå®šä¹‰é¡µé¢ä»¥åŠæ’ä»¶çš„å±æ€§
+//3.The css folder defines the properties of the page as well as the plug-in
 
-4.ÔÚ""ÀïÃæ×¢ÒâÒªÓÃ''·ñÔò²å¼ş¼ÓÔØ²»³öÀ´
+4.åœ¨""é‡Œé¢æ³¨æ„è¦ç”¨''å¦åˆ™æ’ä»¶åŠ è½½ä¸å‡ºæ¥
+//4. pay attention to '' in "", otherwise the plugin is not loaded
 
-5.²å¼şÑùÊ½Ğè×Ô¼º¶¨Òå
 
-6.ºóĞøÎÄµµ»á²»¶ÏÍêÉÆ£¬Ï£Íû´ó¼Ò¶à¶àµü´ú
+5.æ’ä»¶æ ·å¼éœ€è‡ªå·±å®šä¹‰
+//5. plugin styles need to be defined by yourself
+
+
+6.åç»­æ–‡æ¡£ä¼šä¸æ–­å®Œå–„ï¼Œå¸Œæœ›å¤§å®¶å¤šå¤šè¿­ä»£
+//6.the follow-up documents will continue to improve, I hope everyone a lot of iterations
