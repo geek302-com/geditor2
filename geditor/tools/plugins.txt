@@ -1,0 +1,35 @@
+<script>
+var obj_tools=document.getElementById("tools");
+
+   function diaoyong(src1){              //创建引用js的对象
+this.src=src1;
+this.yinyong=fucntion(){
+   new_js=document.createElement("script");
+   new_js.setAttribute("type","text/javascript");
+   new_js.setAttribute("src",this.src);
+   document.body.appendChild(new_js);
+ 
+
+  }
+}
+var tools_src=new Array();    //注册js插件文件地址的数组
+    tools_src(
+         "",
+         "",
+         "",
+         "",
+            );
+
+//调用js文件
+  function js_ok(){
+     for(var i=0;i<=js_src.length;i++){
+          diaoyong(js_src[i]);
+          }
+     
+ //插件加载到tools工具栏中
+  obj_tools.appendChild();
+  }
+
+
+
+</script>
